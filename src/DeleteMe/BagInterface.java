@@ -1,3 +1,5 @@
+package DeleteMe;
+
 public interface BagInterface<T> {
     /**
      * Add a new entry to this bag.

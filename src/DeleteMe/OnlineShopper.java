@@ -1,3 +1,5 @@
+package DeleteMe;
+
 public class OnlineShopper {
     public static void main(String[] args)
     {
@@ -8,8 +10,8 @@ public class OnlineShopper {
                         new Item("Bird bath", 4499),
                         new Item("Sunflower seeds", 1295)
                 };
-        //BagInterface<Item> shoppingCart = new FixedSizeArrayBag<>();
-        //BagInterface<Item> shoppingCart = new ResizableArrayBag<>();
+        //DeleteMe.BagInterface<DeleteMe.Item> shoppingCart = new FixedSizeArrayBag<>();
+        //DeleteMe.BagInterface<DeleteMe.Item> shoppingCart = new ResizableArrayBag<>();
         BagInterface<Item> shoppingCart = new LinkedBag<>();
         int totalCost = 0;
         //Statements that add selected items to the shopping cart:

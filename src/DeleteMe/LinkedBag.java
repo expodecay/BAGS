@@ -1,3 +1,5 @@
+package DeleteMe;
+
 public final class LinkedBag<T> implements BagInterface<T> {
     private Node firstNode;
     private int numberOfEntries;

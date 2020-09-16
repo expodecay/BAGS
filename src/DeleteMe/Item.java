@@ -1,3 +1,5 @@
+package DeleteMe;
+
 public class Item {
     private String description;
     private int price;
