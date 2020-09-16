@@ -10,8 +10,8 @@ public class OnlineShopper {
                         new Item("Bird bath", 4499),
                         new Item("Sunflower seeds", 1295)
                 };
-        //DeleteMe.CS_2400_Data_Structures_and_Advanced_Programming.BagInterface<DeleteMe.CS_2400_Data_Structures_and_Advanced_Programming.Item> shoppingCart = new FixedSizeArrayBag<>();
-        //DeleteMe.CS_2400_Data_Structures_and_Advanced_Programming.BagInterface<DeleteMe.CS_2400_Data_Structures_and_Advanced_Programming.Item> shoppingCart = new CS_2400_Data_Structures_and_Advanced_Programming.ResizableArrayBag<>();
+        //DeleteMe.Project_1.BagInterface<DeleteMe.Project_1.Item> shoppingCart = new FixedSizeArrayBag<>();
+        //DeleteMe.Project_1.BagInterface<DeleteMe.Project_1.Item> shoppingCart = new Project_1.ResizableArrayBag<>();
         BagInterface<Item> shoppingCart = new LinkedBag<>();
         int totalCost = 0;
         //Statements that add selected items to the shopping cart:
